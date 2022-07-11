@@ -106,7 +106,7 @@ SERVER_REFRESH_INVERVAL=30 # refresh interval in minutes
 ```
 
 Under the hood cheerio is used which allows us to parse the html from the page and use JQuery to interact with it.
-What's important to know is that I hardcoded all the table columns to give a more concise name for my usecase 
+What's important to know is that I hardcoded all the table columns to give a more concise name for my usecase. So
 
 ## Credits
 - To get the URL of the current plan I used [this amazing project](https://github.com/TheNoim/DSBAPI)
@@ -120,7 +120,7 @@ What's important to know is that I hardcoded all the table columns to give a mor
 - [Cheerio](https://www.npmjs.com/package/cheerio)
 - [Restify](http://restify.com/)
 
-## TODO
-- [] GraphQL :O
-- [] /plan/:class/current instead of /plan/current/:class -> cleaner solution ?
-- [] clean up code 
+## Roadmap
+- [ ] add (optional) graphql api
+- [ ] dynamically loop over table headers so that using this project requires less technical know-how
+- Rewrite with Deno or Rust (probably not gonna happen :P)

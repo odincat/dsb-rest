@@ -28,7 +28,7 @@ export class PlanController implements Controller {
                 "content": substitutionDataCurrent
             });
         });
-        httpServer.get('/plan/:class/current/', (request, response) => {
+        httpServer.get('/plan/:class/current', (request, response) => {
             response.send(200, {
                 "meta": substitutionMeta,
                 "date": substitutionDateCurrent,
