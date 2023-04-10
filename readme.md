@@ -1,3 +1,4 @@
+**Note: This repository is archived, because I [rewrote this project](https://github.com/odincat/DSBmobile-api).**
 # DSB-Rest
 An self-hosted rest API that give you *direct* access to the content of the [digital black board by heinekingmedia](https://heinekingmedia.de/education/digitales-schwarzes-brett) (DE: "Digitales schwarzes Brett" = DSB).
 
